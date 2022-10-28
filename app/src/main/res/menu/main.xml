@@ -1,8 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:title="Fav"
-        android:icon="@drawable/ic_baseline_favorite"
         android:id="@+id/mFav"
+        android:icon="@drawable/ic_baseline_favorite"
+        android:title="Favorite"
+        app:showAsAction="ifRoom"
         />
+    <item
+        android:id="@+id/mSearch"
+        android:icon="@drawable/ic_baseline_search"
+        android:title="Search"
+        app:showAsAction="ifRoom"
+        />
+
+
+        <item
+            android:id="@+id/mHistory"
+            android:icon="@drawable/ic_baseline_history"
+            android:title="History"
+            app:showAsAction="ifRoom"
+            />
+        <item
+            android:id="@+id/mInfo"
+            android:icon="@drawable/ic_baseline_info"
+            android:title="Info"
+            app:showAsAction="ifRoom"
+            />
+
+    <item
+        android:id="@+id/mShare"
+        android:icon="@drawable/ic_baseline_share"
+        android:title="Share"
+        app:showAsAction="ifRoom"
+        />
+
 </menu>
