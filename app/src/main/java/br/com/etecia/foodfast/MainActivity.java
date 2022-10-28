@@ -28,29 +28,24 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.mFav:
+            case R.id.mHome:
                 Toast.makeText(getApplicationContext(),
-                        "Clique em Favoritos!",
+                        "Página inicial",
                         Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.mSearch:
+            case R.id.mHear:
                 Toast.makeText(getApplicationContext(),
-                        "Clique em Buscar!",
+                        "Escute tudo, mesmo!",
                         Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.mHistory:
+            case R.id.mHeal:
                 Toast.makeText(getApplicationContext(),
-                        "Clique em histórico!",
+                        "Te curando agora!",
                         Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.mInfo:
+            case R.id.mHelp:
                 Toast.makeText(getApplicationContext(),
-                        "Clique em Info!",
-                        Toast.LENGTH_SHORT).show();
-                break;
-            case R.id.mShare:
-                Toast.makeText(getApplicationContext(),
-                        "Clique em Share!",
+                        "Abrindo Ajuda!",
                         Toast.LENGTH_SHORT).show();
                 break;
         }

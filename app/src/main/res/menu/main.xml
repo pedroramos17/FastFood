@@ -2,37 +2,30 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/mFav"
-        android:icon="@drawable/ic_baseline_favorite"
-        android:title="Favorite"
+        android:id="@+id/mHome"
+        android:icon="@drawable/ic_baseline_home"
+        android:title="Home"
         app:showAsAction="ifRoom"
         />
     <item
-        android:id="@+id/mSearch"
-        android:icon="@drawable/ic_baseline_search"
-        android:title="Search"
+        android:id="@+id/mHear"
+        android:icon="@drawable/ic_baseline_hearing"
+        android:title="Hear"
         app:showAsAction="ifRoom"
         />
 
 
         <item
-            android:id="@+id/mHistory"
-            android:icon="@drawable/ic_baseline_history"
-            android:title="History"
+            android:id="@+id/mHeal"
+            android:icon="@drawable/ic_baseline_healing"
+            android:title="Healing"
             app:showAsAction="ifRoom"
             />
         <item
-            android:id="@+id/mInfo"
-            android:icon="@drawable/ic_baseline_info"
-            android:title="Info"
+            android:id="@+id/mHelp"
+            android:icon="@drawable/ic_baseline_help"
+            android:title="Help"
             app:showAsAction="ifRoom"
             />
-
-    <item
-        android:id="@+id/mShare"
-        android:icon="@drawable/ic_baseline_share"
-        android:title="Share"
-        app:showAsAction="ifRoom"
-        />
 
 </menu>
